@@ -79,14 +79,5 @@ The custom CNN architecture demonstrated competitive performance compared to pre
 - Exploration of additional datasets.
 - Integration of the model into a user-friendly web and mobile application for real-time disease detection.
 
-## Repository Contents
-- `data/`: Contains the dataset used for training and evaluation.
-- `models/`: Includes the trained models and their configurations.
-- `scripts/`: Contains the training and evaluation scripts.
-- `results/`: Stores the output images and performance metrics.
 
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/plant-disease-detection.git
-   cd plant-disease-detection
+
