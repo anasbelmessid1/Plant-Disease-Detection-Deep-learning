@@ -15,8 +15,8 @@ Here are some screenshots of the app in action:
 ### Home Screen
 ![Home Screen](./screenshots/App%20Homepage.PNG)
 
-### Disease Detection
-![Disease Detection](./screenshots/disease_detection.png)
+### Disease Detection Page 
+![Disease Detection](screenshots/Disease%20Detection%20Page.PNG)
 
 ### Results
 ![Results](./screenshots/results.png)
