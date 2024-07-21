@@ -21,8 +21,8 @@ Here are some screenshots of the app in action:
 ### Detected Disease
 ![Disease Detection](screenshots/Detected%20Disease.PNG)
 
-### Results
-![Results](./screenshots/results.png)
+### Assistant Chatbot
+![Disease Detection](screenshots/Assistant%20Chatbot.PNG)
 
 ## Acknowledgments
 We express our gratitude to our Supervisor for their guidance and support throughout this project.
