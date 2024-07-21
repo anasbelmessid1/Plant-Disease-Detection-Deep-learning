@@ -18,6 +18,9 @@ Here are some screenshots of the app in action:
 ### Disease Detection Page 
 ![Disease Detection](screenshots/Disease%20Detection%20Page.PNG)
 
+### Detected Disease
+![Disease Detection](screenshots/Detected%20Disease.PNG)
+
 ### Results
 ![Results](./screenshots/results.png)
 
