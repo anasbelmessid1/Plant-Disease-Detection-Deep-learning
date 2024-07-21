@@ -4,7 +4,7 @@
 This project aims to develop a deep learning model to detect and diagnose plant diseases from images. The model leverages Convolutional Neural Networks (CNNs) to identify various plant diseases and provides treatment recommendations. The project compares the custom architecture with pre-trained models like VGG16, EfficientNetB0, and ResNet50.
 
 ## Video Demonstration ( Click on the picture to atch the video )
-[![Watch the video](https://img.youtube.com/vi/DrzZybT_Fig/2.jpg)](https://www.youtube.com/watch?v=DrzZybT_Fig)
+[![Watch the video](https://img.youtube.com/vi/DrzZybT_Fig/10.jpg)](https://www.youtube.com/watch?v=DrzZybT_Fig)
 
 ## Abstract
 Plant diseases pose a significant threat to agriculture, affecting crop yield and quality. Early detection and diagnosis are crucial for effective disease management. This project utilizes deep learning techniques to create a robust model for identifying plant diseases from images. The model's performance is compared with popular pre-trained architectures to determine the most effective solution.
