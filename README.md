@@ -13,7 +13,7 @@ Plant diseases pose a significant threat to agriculture, affecting crop yield an
 Here are some screenshots of the app in action:
 
 ### Home Screen
-![Home Screen](./screenshots/home_screen.png)
+![Home Screen](./screenshots/Homepage.png)
 
 ### Disease Detection
 ![Disease Detection](./screenshots/disease_detection.png)
