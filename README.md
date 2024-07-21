@@ -1,7 +1,7 @@
 # Plant Disease Detection using Deep Learning
 
 ## Project Overview
-This project aims to develop a deep learning model to detect and diagnose plant diseases from images. The model leverages Convolutional Neural Networks (CNNs) to identify various plant diseases and provides treatment recommendations. The project compares the custom architecture with pre-trained models like VGG16, EfficientNetB0, InceptionV3, and ResNet50.
+This project aims to develop a deep learning model to detect and diagnose plant diseases from images. The model leverages Convolutional Neural Networks (CNNs) to identify various plant diseases and provides treatment recommendations. The project compares the custom architecture with pre-trained models like VGG16, EfficientNetB0, and ResNet50.
 
 ## Abstract
 Plant diseases pose a significant threat to agriculture, affecting crop yield and quality. Early detection and diagnosis are crucial for effective disease management. This project utilizes deep learning techniques to create a robust model for identifying plant diseases from images. The model's performance is compared with popular pre-trained architectures to determine the most effective solution.
@@ -20,7 +20,7 @@ We express our gratitude to our Supervisor for their guidance and support throug
 
 3. **Theoretical Basis**
    - Convolutional Neural Networks (CNNs)
-   - Transfer learning and pre-trained models (VGG16, EfficientNetB0, InceptionV3, ResNet50)
+   - Transfer learning and pre-trained models (VGG16, EfficientNetB0, ResNet50)
 
 4. **Methodology**
    - Data collection and preprocessing
@@ -46,7 +46,7 @@ A comprehensive dataset of plant images was collected, including both healthy an
 
 ### Model Architecture
 - **Custom CNN Architecture**: Designed specifically for plant disease detection, featuring multiple convolutional layers, batch normalization, and dropout for regularization.
-- **Pre-trained Models**: VGG16, EfficientNetB0, InceptionV3, and ResNet50 were fine-tuned on the plant disease dataset.
+- **Pre-trained Models**: VGG16, EfficientNetB0, and ResNet50 were fine-tuned on the plant disease dataset.
 
 ### Training
 - **Optimizer**: Adam optimizer was used for training.
@@ -56,20 +56,19 @@ A comprehensive dataset of plant images was collected, including both healthy an
 ### Comparison with Pre-trained Models
 - **VGG16**: Known for its simplicity and depth, providing a strong baseline.
 - **EfficientNetB0**: Balances model size and accuracy, known for efficient scaling.
-- **InceptionV3**: Uses factorized convolutions and aggressive regularization.
 - **ResNet50**: Introduces residual learning, allowing training of deeper networks.
 
 ## Results
 The custom model and pre-trained models were evaluated on the test dataset. Performance metrics were compared to determine the most effective architecture for plant disease detection.
 
 ### Performance Comparison
-| Model         | Accuracy | Precision | Recall | F1-Score |
-|---------------|----------|-----------|--------|----------|
-| Custom Model  | X.XX%    | X.XX%     | X.XX%  | X.XX%    |
-| VGG16         | X.XX%    | X.XX%     | X.XX%  | X.XX%    |
-| EfficientNetB0| X.XX%    | X.XX%     | X.XX%  | X.XX%    |
-| InceptionV3   | X.XX%    | X.XX%     | X.XX%  | X.XX%    |
-| ResNet50      | X.XX%    | X.XX%     | X.XX%  | X.XX%    |
+| Model                | Model Size | Training Accuracy (%) | Validation Accuracy (%) | Test Accuracy (%) | Training Time | Inference Time per Image |
+|----------------------|------------|-----------------------|-------------------------|-------------------|---------------|--------------------------|
+| EfficientNetB0       | 29.6 MB    | 98.57                 | 96.93                   | 96.9              | 1h 30m        | 0.06s                    |
+| VGG16                | 528 MB     | 87.28                 | 84.79                   | 84.81             | 2h 15m        | 0.07s                    |
+| ResNet50             | 98 MB      | 98.26                 | 96.25                   | 96.60             | 1h 45m        | 0.08s                    |
+| Custom Model         | 2.3 MB     | 97.20                 | 96.12                   | 96.8              | 2h 5m         | 0.06s                    |
+| Hybrid Custom Model  | 45.1 MB    | 99.89                 | 98.32                   | 98.67             | 2h 20m        | 0.06s                    |
 
 ## Conclusion
 The custom CNN architecture demonstrated competitive performance compared to pre-trained models. The project highlights the potential of deep learning for accurate and efficient plant disease detection.
@@ -78,6 +77,3 @@ The custom CNN architecture demonstrated competitive performance compared to pre
 - Further optimization of the custom model.
 - Exploration of additional datasets.
 - Integration of the model into a user-friendly web and mobile application for real-time disease detection.
-
-
-
