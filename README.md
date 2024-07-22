@@ -1,4 +1,4 @@
-# Plant Disease Detection using Deep Learning models and OpenAI API
+# Plant Disease Detection using Deep Learning models and OpenAI API + Integrted Chatbot
 
 ## Project Overview
 This project aims to develop a deep learning model to detect and diagnose plant diseases from images. The model leverages Convolutional Neural Networks (CNNs) to identify various plant diseases and provides treatment recommendations. The project compares the custom architecture with pre-trained models like VGG16, EfficientNetB0, and ResNet50.
