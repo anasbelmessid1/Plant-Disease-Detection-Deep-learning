@@ -1,4 +1,4 @@
-# Plant Disease Detection using Deep Learning models and OpenAI API + Integrted Chatbot
+# Plant Disease Detection using Deep Learning models and OpenAI API + Integrated Chatbot
 
 Salut c'est Anas / Hi it's Anas !  😉  
 
