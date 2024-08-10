@@ -26,8 +26,6 @@ Here are some screenshots of the app in action:
 ### Assistant Chatbot
 ![Disease Detection](screenshots/Assistant%20Chatbot.PNG)
 
-## Acknowledgments
-We express our gratitude to our Supervisor for their guidance and support throughout this project.
 
 ## Project Structure
 1. **Introduction**
